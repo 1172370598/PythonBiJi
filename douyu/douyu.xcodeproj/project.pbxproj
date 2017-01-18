@@ -412,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = douyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23456.douyu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +426,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = douyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23456.douyu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +509,7 @@
 				D7367C181E2F1E04001AC340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7367C191E2F1E04001AC340 /* Build configuration list for PBXNativeTarget "douyuTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D7367C1B1E2F1E04001AC340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7367C1C1E2F1E04001AC340 /* Build configuration list for PBXNativeTarget "douyuUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D7367C1E1E2F1E04001AC340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
